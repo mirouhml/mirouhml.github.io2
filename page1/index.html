@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Responsive Survey Form</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <div id="header">
+      <div id="head-title">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+      </div>
+    </div>
+    <div id="survey">
+      <form id="survey-form">
+        <label id="name-label">Name</label></br>
+        <input type="text" id="name"placeholder="Enter your name" required></input></br>
+        <label id="email-label">Email</label></br>
+        <input type="email" id="email" placeholder="Enter your email" required></input></br>
+        <label id="number-label">Age (Optional)</label></br>
+        <input type="number" id="number" min="10" max="99" placeholder="Age"></input></br>
+
+        <label>Which option best describes your current role?</label></br>
+        <select id="dropdown">
+          <option disabled selected> Select current role </option>
+          <option> Student </option>
+          <option> Full time job </option>
+          <option> Full time learner </option>
+          <option> Prefer not to say </option>
+          <option> Other </option>
+        </select></br>
+
+        <label>Would you recommend freeCodeCamp to a friend?</label></br>
+        <input type="radio" name="selected" value="definitely">Definitely</input></br>
+        <input type="radio" name="selected" value="maybe">Maybe</input></br>
+        <input type="radio" name="selected" value="not-sure">Not sure</input></br>
+
+        <label>What would you like to see improved? (Check all that apply)</label></br>
+        <input type="checkbox" value="front-end">Front-end Projects </input></br>
+        <input type="checkbox" value="back-end">Back-end Projects </input></br>
+        <input type="checkbox" value="front-end">Data Visualization </input></br>
+        <input type="checkbox" value="open-source">Open Source Community</input></br>
+
+       <label>Any comments or suggestions?</label></br>
+       <textarea placeholder="Enter your comment here..."></textarea></br>
+
+       <button id="submit">Submit</button>
+
+      </form>
+    </div>
+
+    <script  src="js/index.js"></script>
+  </body>
+</html>
