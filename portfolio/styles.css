@@ -85,6 +85,10 @@ ul.social-media li {
   margin: 10px 12px;
 }
 
+a { 
+  color: transparent; 
+} 
+
 .works-section {
   display: grid;
 }
