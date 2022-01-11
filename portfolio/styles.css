@@ -431,6 +431,7 @@ input {
   margin-right: 40px;
   width: 295px;
   display: block;
+  padding: 16px 15px;
 }
 
 textarea {
@@ -439,7 +440,7 @@ textarea {
   height: 114px;
 }
 
-#separator3 {
+.separator3 {
   border-bottom: 1px solid #dbd8d7;
   width: 327px;
   margin: auto;
